@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+th{
+    height: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: aqua;
+}
+td,tr,th{
+    border: 1px solid blue;
+    padding: 15px;
+}
