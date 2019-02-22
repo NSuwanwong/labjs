@@ -1,7 +1,7 @@
 $(function () {
     $("#getdata").click(function () {
         console.log('Getting data . . .');
-        $.get("products.json", function (data, status) { //,message)
+        $.get("http://shielded-spire-43023.herokuapp.com/api/products", function (data, status) { //,message)
             if (status == 'success') {
                 //console.log(status);
                 //console.log(message);
