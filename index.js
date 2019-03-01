@@ -3,7 +3,7 @@ $(function(){
     //$.get(url,blar blar balr);'
     $('#go').click(function(){
         var keyword=$("#keyword").val();
-        var url= 'https://www.omdbapi.com/?apikey=3064720e&s='+keyword;
+        var url= 'http://www.omdbapi.com/?apikey=3064720e&s='+keyword;
         $.get(url,function(data,status){
             if(status=='success'){
                 var movies=data.Search;
